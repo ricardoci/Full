@@ -32,10 +32,9 @@
     "babel-loader": "^8.2.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build "
-    
-    
+    "build": "webpack --mode=development",
+    "postinstall": "webpack --mode=production",
+    "start": "node dist/server/app.js"
   },
   "eslintConfig": {
     "extends": [

@@ -12,6 +12,7 @@ export default function App() {
   return (
     <>
       <Router>
+        <Routes>
         <NavMenu />
         <ScrollToTop />
         
@@ -29,6 +30,7 @@ export default function App() {
           </Route>
         
         <Footer />
+        </Routes>
       </Router>
     </>
   );

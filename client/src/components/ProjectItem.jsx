@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-import UTrackerImg from '../assets/images/CryptoData.jpg';
+import UTrackerImg from '../assets/images/CryptoData.JPEG';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {

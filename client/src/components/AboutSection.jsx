@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/meSecond.JPEG';
+import AboutImg from '../assets/images/room.PNG';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;

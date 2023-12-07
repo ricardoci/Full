@@ -51,15 +51,16 @@ const FooterStyle = styled.div`
     }
   }
 `;
-
+const Name = "Ricardo Cisneros"
+const Skill = "I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work."
 export default function Footer() {
   return (
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <p className="footer__col1__title">Ricardo Cisneros</p>
+          <h1 className="footer__col1__title">{Name}</h1>
           <PText>
-          I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work.
+          {Skill}
           </PText>
         </div>
         <div className="footer__col2">

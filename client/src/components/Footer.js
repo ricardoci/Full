@@ -57,10 +57,7 @@ export default function Footer() {
   return (
     <FooterStyle>
       <div className="container">
-        <div className="footer__col1">
-         
-        
-        </div>
+       
         <div className="footer__col2">
           <FooterCol
             heading="Important Links"

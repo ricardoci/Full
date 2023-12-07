@@ -8,9 +8,9 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 
-export default function App() {
+const App = () => {
   return (
-    <>
+    <div className="app">
       <Router>
         <Routes>
         <NavMenu />
@@ -32,6 +32,7 @@ export default function App() {
         <Footer />
         </Routes>
       </Router>
-    </>
+      </div>
   );
 }
+export default App;

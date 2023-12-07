@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MapImg from '../assets/images/myLocation.png';
+import MapImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978846/myLocation_khp2y2.png';
 import PText from './PText';
 
 const MapStyles = styled.div`

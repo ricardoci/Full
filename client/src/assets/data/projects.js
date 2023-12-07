@@ -1,9 +1,9 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/coder.GIF';
-import UTrackerImg from '../images/CryptoData.jpg';
-import GreenCtgImg from '../images/weatherApp.PNG';
-import CoinTrackerImg from '../images/Screenshot 2023-03-21 234059.png';
-import CavinImg from '../images/coder.GIF';
+import ProjectImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978851/coder_l1o34a.gif';
+import UTrackerImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978845/crypto_umm5z4.png';
+import GreenCtgImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978846/CryptoData_zrr6sn.jpg';
+import CoinTrackerImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978845/Screenshot_2023-03-21_234059_tyqvkj.png';
+import CavinImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978851/coder_l1o34a.gif';
 
 const projects = [
   {

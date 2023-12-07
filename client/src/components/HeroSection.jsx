@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/code.JPEG';
+import HeroImg from 'https://res.cloudinary.com/dy2odrrzx/image/upload/v1701978847/code_dzgqzr.jpg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';

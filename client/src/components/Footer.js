@@ -57,10 +57,10 @@ export default function Footer() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Ricardo Cisneros</h1>
-          <p>
+          <p className="footer__col1__title">Ricardo Cisneros</p>
+          <PText>
           I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work.
-          </p>
+          </PText>
         </div>
         <div className="footer__col2">
           <FooterCol

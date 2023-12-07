@@ -12,27 +12,18 @@ const App = () => {
   return (
     <div className="app">
       <Router>
-        <Routes>
         <NavMenu />
         <ScrollToTop />
-        
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        
-        <Footer />
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </Router>
-      </div>
+    </div>
   );
 }
+
 export default App;

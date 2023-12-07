@@ -58,9 +58,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer__col1">
           <h1 className="footer__col1__title">Ricardo Cisneros</h1>
-          <PText>
+          <p>
           I am University of Minnesota coding bootcamp grad with full stack dev skills. Passionate about innovative solutions & teamwork for enhancing functionality & delivering high-quality work.
-          </PText>
+          </p>
         </div>
         <div className="footer__col2">
           <FooterCol
